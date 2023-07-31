@@ -1,3 +1,37 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Acme Corporation
+theme: Eclectic
+Author:
+    facebook: "heeps://facebook.com/example"
+    twitter: "heeps://twitter.com/example"
+    email: "contact@example.com"
+    name: "Acme Corporation"
+    location: NewYork
+    phone: (999)999-999
+    hours: "Mon-Fri: 9:00AM - 6:00PM, ET"
+
+menu:
+    main:
+        - identifier: about
+          name: About
+          url: /about
+          weight: 100
+        - identifier: contact
+          name: Contact
+          url: /contact
+          weight: 200
+params:
+    color: "#4f46e5"
+    copyright: "XXXXXXX XXX:XXXXXX Acme Corporation"
+    footer:
+        - title: About
+          content: >
+            Acme Corporation XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
+            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx				
+        - title: Recent Blog Posts
+          recents: blog
+          recentCount: 7
+        - title: Contact Us
+          contact: true
