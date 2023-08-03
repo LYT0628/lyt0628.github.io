@@ -43,4 +43,3 @@ A square is a special case of a rhombus (equal sides, opposite equal angles), a 
 
 Content from [wikipedia](https://en.wikipedia.org/wiki/Square)
 
-{{< youtube nLAVanlu5js >}}
