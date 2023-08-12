@@ -1,11 +1,8 @@
 ---
 menu:
   main:
-    name: blog
+    name: 博客
     identifier: blog
-    weight: 110
-  footer:
-    name: blog
     weight: 100
 ---
 

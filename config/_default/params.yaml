@@ -11,12 +11,13 @@ footer:
         the world. You live in it.
 
 
-  - title: Recent Blog Posts
+  - title: 最近
     recents: blog
     recentCount: 7
-  - title: Contact Us
+  - title: 联系我们
     contact: true
-  - title: Important Links
+    # 打开页脚连接支持
+  - title: 重要链接
     menu: true
 style: blue
 logo: /image/logo.png
