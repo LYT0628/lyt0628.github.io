@@ -1,8 +1,12 @@
 ---
 title: 分类
 menu:
+  main: 
+    name: 分类
+    identifier: categories
+    weight: 130
   footer:
-    weight: 150
+    weight: 80
     name: 分类
 ---
 

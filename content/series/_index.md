@@ -1,14 +1,13 @@
 ---
-title: 系列
+title: 编程指南
 menu:
   main:
-    name: 系列
+    name: 编程指南
     identifier: series
     weight: 200
   footer:
     weight: 100
-    name: 系列
+    name: 编程指南
 ---
 
-
-At Acme corporation we produce shapes and love to talk about them. Here are the various categories of content we have at Acme.
+分享编程知识

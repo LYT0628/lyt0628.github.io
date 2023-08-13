@@ -1,7 +1,7 @@
 ---
 menu:
   main:
-    name: 博客
+    name: 动态
     identifier: blog
     weight: 100
 ---
