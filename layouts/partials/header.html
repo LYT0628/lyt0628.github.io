@@ -1,0 +1,39 @@
+<style>
+#header {
+  background-color: #fff;
+}
+#menu {
+  text-align: center;
+}
+.menu-item {
+  margin-left: 16px;
+}
+a {
+  color: grey;
+}
+#icon {
+  width: 60px;
+}
+</style>
+
+{{/*  菜单  */}}
+{{with site.Menus.main }}
+<section id="header">
+  <div id="menu">
+    <a href="{{ site.BaseURL | absLangURL }}">
+      <img src="./image/logo.svg" alt="Acme Logo" 
+            height="60" width="60" 
+      />
+      {{site.Title}}
+    </a>
+    {{ range . }} 
+    <span class="menu-item" > 
+      <a href="{{.URL}}">
+        {{/*  <i class="icon-{{.Identifier}}"></i>  */}}
+        {{.Name | humanize}} 
+      </a> 
+    </span>
+  {{ else }}{{end}} 
+ </div>
+</section>
+{{end}} {{/*  with  */}}

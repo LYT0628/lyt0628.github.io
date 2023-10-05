@@ -1,0 +1,8 @@
+<div id="footer" style="text-align: center;">
+{{ with site.Menus.footer }}
+  {{ range . }}
+    <a href="{{.URL}}" style="margin-left: 16px;">{{.Name}}</a>
+  {{ end }}
+{{ end }}
+{{ partial "copyright.html" . }}
+</div>
