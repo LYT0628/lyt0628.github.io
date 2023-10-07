@@ -1,0 +1,14 @@
+<div class="sitemap" style="text-align: center;background-color: #eee;
+                            padding:40px">
+  <h4>链接</h4>
+{{ with site.Menus.footer }}
+  <ul>
+  {{ range . }}
+    <li>
+       <a href="{{.URL}}" style="margin-left: 16px;">{{.Name}}</a>
+    </li>
+  {{ end }}
+  </ul>
+{{ end }}
+{{ partial "copyright.html" . }}
+</div>

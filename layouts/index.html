@@ -6,13 +6,16 @@
     <title>{{$.Title}}</title> 
   {{ end }}
   <style>
-    a { color: black;}
-  </style>  
+   a {color: gray; text-decoration-line: none;}
+   ul,ol {list-style:none; margin:0px; padding:0px;} 
+  </style> 
+  <link rel="stylesheet" href="./index.html"> 
 </head>
 
 <body>
   {{ partial "header.html" . }}
-  {{ partial "footer.html" . }}
+  {{ partial "face.html" . }}
+  {{ partial "sitemap.html" . }}
   {{/*  {{- partial "var.html" -}}  */}}
 </body>
 </html>

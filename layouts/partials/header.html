@@ -1,38 +1,10 @@
 
-
-{{/*  菜单  */}}
-{{with site.Menus.main }}
 <section id="header">
 <div class="navbar" 
       style="display: flex;justify-content:space-between;margin: 0 auto;
             border-bottom:1px solid grey">
   {{ partial "navTitle.html" . }}
-  <nav class="menubar" 
-    style="display: flex;align-items:flex-end;justify-content:center">
-    {{range .}}
-    <a class="menu" 
-        href="{{.URL}}" style="display: block;padding:16px">{{.Name}}</a>
-    {{end}}
-  </nav>
-  {{/*  <ul id="menu" 
-  style="display: flex;align-items:flex-end;justify-content:center">  */}}
-    {{/*  menu  */}}
-    {{/*  {{ range . }} 
-    <li class="menu-item"> 
-      <a href="{{.URL}}">{{.Name}} </a>
-        sub-menu
-          {{ if .HasChildren }}
-            <ul>
-              {{ range .Children }}
-              <li class="sub-menu">
-                <a href="{{.URL}}">{{.Name}}</a>
-              </li>    
-              {{ end }}
-            </ul>
-        {{ end }}
-    </li>
-  {{ else }}{{end}}   */}}
- </ul>
+  {{ partial "menubar.html" . }}
 </div>
 </section>
-{{end}} {{/*  with  */}}
+
