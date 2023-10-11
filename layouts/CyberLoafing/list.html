@@ -1,0 +1,10 @@
+{{ define "body" }}
+
+    <ul class="blog-posts items-{{.Paginator.PageSize}}">
+        {{ range .Paginator.Pages}}
+        {{- partialCached "post.html" . .RelPermalink -}}
+        
+        {{ end }}
+    </ul>
+
+{{ end }}
