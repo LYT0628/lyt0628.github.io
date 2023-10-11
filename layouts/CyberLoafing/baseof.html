@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  {{ if $.Title }}
+    <title>{{$.Title}}</title> 
+  {{ end }}
+  {{ $css := resources.GetMatch "style.css"}}
+  <link rel="stylesheet" type="text/css" href="{{$css.Permalink}}">
+</head>
+
+<body>
+{{ block "header" . }}
+  {{ partial "header.html" . }}
+{{ end }}
+
+
+{{ block "body" . }}
+  <main>
+    {{with .Title}}
+      <h1>
+        {{.}}
+      </h1>
+    {{end}}
+    <div class="content">
+      {{.Content}}
+    </div>
+{{ end }}
+
+
+{{ block "footer.html" . }}
+ {{ partial "footer" . }} 
+{{ end }}
+</body>
+</html>

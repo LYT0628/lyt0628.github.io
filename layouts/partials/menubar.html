@@ -1,10 +1,9 @@
 
 {{with site.Menus.main }}
-  <nav class="menubar" 
-    style="display: flex;align-items:flex-end;justify-content:center">
+  <nav class="menubar" >
     {{range .}}
     <a class="menu" 
-        href="{{.URL}}" style="display: block;padding:16px">{{.Name}}</a>
+       href="{{.URL}}" >{{.Name}}</a>
     {{end}}
   </nav>
 {{end}}

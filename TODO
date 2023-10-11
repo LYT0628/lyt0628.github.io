@@ -1,0 +1,80 @@
+'Alt+Enter' //新建待办事项 Triggers `Todo: Toggle Box`
+'Alt+D' //完成事项 Triggers `Todo: Toggle Done`
+'Alt+C' //事项取消 Triggers `Todo: Toggle Cancelled`
+'Alt+S' // 事项开始Triggers `Todo: Toggle Start`
+'Cmd/Ctrl+Shift+A' //Todo完成 Triggers  `Todo: Archive`
+
+完成SpringJPA的博客
+TODO:
+  ☐ 读《SpringBoot in action》，和Spring官方文档，搞清楚以下几件事情
+    ☐ Spring-JPA元数据注解，分类：重要，不重要。重要放在正文，不重要放在更进一步
+    ☐ 默认的Spring-JPA表及属性命名，放在更进一步
+    ☐ Spring-JPA的查询方式，自定义命名，@ Query，@ QueryName放在更近一步，其他方式找出官方文档,贴链接
+    ☐ Spring-JPA使用进行多表查询的方式
+    ☐ Spring-JPA进行事务管理的方式
+  ☐ 编写以下几个Tag案例
+    ☐ 使用Spring-JPA进行基础配置，单表查询CRUD。
+    ☐ 使用Spring-JPA配置MySQL
+    ☐ 使用Spring-JPA进行基础配置，使用@ Query 单表CURD
+    ☐ 使用Spring-JPA进行复杂配置,一对一， 一对多，多对多元数据注解
+    ☐ 使用Spring-JPA进行复杂配置，使用@ QueryName进行多表查询
+  
+完成Spring-Test-ORM的博客：
+TODO:
+  ☐ 读《SpringBoot in action》，和Spring官方文档，搞清楚以下几件事情
+    ☐ H2数据库的配置，分为重要和不重要，重要放在正文，不重要放在拓展阅读
+    ☐ CommandLineRunner和ApplicationRunner的使用方式，编写使用它进行数据库的配置的示例代码
+    ☐ scheme.sql和data.sql的用法，以及相关配置
+    ☐ 更进一步，使用自定义数据源（Druid和TomcatJDBC），编写测试代码
+
+完成Spring-Test—restful的博客
+TODO:
+☐ 读Spring官方文档和网上博客，搞清楚一下即可问题
+  ☐ 使用MVCtest调用GET，POST，PUT，DELETE请求的方式
+  ☐ MVCTest进行断言的方式，常用列举，编写代码示例，不常用的贴链接
+
+弯沉Spring-Test的博客
+TODO:
+  ☐ 搞清楚JUnit到底是干什么的，JUnit4和JUnit5的概念
+  ☐ JUnit常用注解，不常用注解贴链接
+  ☐ 编写示例代码，测试简单代码
+
+ 
+TODO:
+  ☐ 读《Hugo in Action》和Hugo官方文档，搞清楚一下问题
+    ☐ Hugo如何导入CSS文件
+    ☐ 我需要完成哪些页面的编写
+    ☐ 如何导入三方库,导入BootStrap和JQuery
+  ☐ 搞清楚如何做移动端适配，记录博客
+  ☐ 对各个页面进行原形设计
+  ☐ 实现页面
+    ☐ 123
+  ☐ 进行对各个页面进行移动端适配
+  ☐ 搞清楚如何将主题打包成Hugo模块
+  ☐ 提取主题成为Hugo模块
+  ☐ 搞清楚如何把内容打包成Hugo模块
+  ☐ 把Spring系列打包成Hugo模块
+
+TODO:
+  ☐ 把飞书的文档重新整理一下，
+  ☐ 把项目的主要模块画成示意图
+  ☐ 讲述VO，DTO，POJO，Entity的概念，画对象ER图，写MySQL的SQL语句
+  ☐ 把登入流程画成流程图和时序图
+  ☐ 记录IM通信的原理的实现方式，介绍rocketmq
+  ☐ 介绍消息队列，生产者消费者模型，简单介绍Push模式和pull模式
+  ☐ 设计POJO和通信流程，编写SQL代码和ER图
+  ☐ 记录rocketmq的博客，写一个简单IM聊天系统的示例代码，UI界面为命令行
+
+TODO:
+  ☐ 百度，搞清楚如何在PyQT表格中使用其他QT组件
+  ☐ 画一下PyQT的思维导图，主要支出QyPt的主干知识
+  ☐ 完成GUI的编写
+  ☐ 完成Include,Exclude,分类结果的回调
+  ☐ 完成图片和文本的模糊查询比较器
+  ☐ 编写测试用例
+  ☐ 打包成EXE文件，发给老师
+  ☐ 重构代码
+
+
+TODO:
+   

@@ -1,0 +1,6 @@
+@import url(./reset.scss);
+/* style */
+.sitemap {
+  text-align: center;
+  background-color: #eee;
+  padding: 40px; }

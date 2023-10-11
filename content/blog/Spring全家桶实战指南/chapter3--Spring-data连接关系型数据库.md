@@ -1,6 +1,6 @@
 ---
 title: chapter3 | Spring-data连接关系型数据库
-date: "2023-08-12T00:00:00Z"
+date: "2023-10-12T00:00:00Z"
 tags: [spring]
 categories: [java]
 series: [Spring全家桶实战指南]
