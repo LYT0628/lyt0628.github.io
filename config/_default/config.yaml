@@ -3,6 +3,7 @@
 baseURL: https://lyt0628.icu/
 languageCode: zh-CN
 title: 摸鱼天尊
-theme: Eclectic
+theme: CyberLoafing
 enableEmoji: true
 enableGitInfo: true
+paginate: 3

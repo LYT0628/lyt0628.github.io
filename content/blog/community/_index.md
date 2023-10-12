@@ -4,4 +4,3 @@ menu:
     name: Community
     parent: blog
 ---
-

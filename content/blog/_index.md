@@ -4,7 +4,7 @@ menu:
     name: 动态
     identifier: blog
     weight: 100
-type: CyberLoafing
+
 ---
 The Acme Blog
 =============
