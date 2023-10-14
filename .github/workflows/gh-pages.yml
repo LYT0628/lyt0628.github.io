@@ -59,7 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL lyt0628.icu/"          
+            --baseURL https://lyt0628.icu/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
