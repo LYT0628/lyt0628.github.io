@@ -17,7 +17,7 @@ TODO:
     ☐ 使用Spring-JPA配置MySQL
     ☐ 使用Spring-JPA进行基础配置，使用@ Query 单表CURD
     ☐ 使用Spring-JPA进行复杂配置,一对一， 一对多，多对多元数据注解
-    ☐ 使用Spring-JPA进行复杂配置，使用@ QueryName进行多表查询
+    ✔ 使用Spring-JPA进行复杂配置，使用@ QueryName进行多表查询 @done(23-10-15 12:54)
   
 完成Spring-Test-ORM的博客：
 TODO:
