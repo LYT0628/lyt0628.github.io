@@ -3,7 +3,8 @@
 baseURL: https://lyt0628.icu/
 languageCode: zh-CN
 title: 摸鱼天尊
-theme: CyberLoafing
+# theme: CyberLoafing
+theme: github.com/LYT0628/CyberLoafing
 enableEmoji: true
 enableGitInfo: true
 paginate: 3
