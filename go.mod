@@ -1,6 +1,6 @@
 module github.com/LYT0628/LYT0628.github.io
 
-go 1.21.1
+go 1.23
 
 require (
 	github.com/LYT0628/CyberLoafing v1.0.2 // indirect
