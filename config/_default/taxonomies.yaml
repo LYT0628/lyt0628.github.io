@@ -1,6 +1,4 @@
 # 定义taxo, Hugo 默认有categories 和 tags 两种 taxo
 category: categories #分类
 tag: tags #标签
-series: series # 编程系列文章
-translation: translations # 外文翻译
-illusion: illusions # 插画, 四格漫画, 动画
+# series: series # 编程系列文章
