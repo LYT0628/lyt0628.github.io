@@ -1,2 +1,0 @@
-# github.com/LYT0628/CyberLoafing v1.0.2
-# github.com/jquery/jquery v0.0.0-20231016165454-1ad66aeb6d7d
