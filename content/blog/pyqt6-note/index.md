@@ -1,16 +1,15 @@
 ---
 title: "Pyqt6 笔记"
 date: 2023-10-29T03:32:14+08:00
-draft: true
+draft: false
 ---
-
 ## 一 常用组件
 
 ### 1.1 基本组件
 
 **PyQt6.QtWidgets** 包含常用GUI组件，下面我们导入了两个：
 
--  QApplication： app主体，一个app只能有一个
+- QApplication： app主体，一个app只能有一个
 - QWidget：根组件，可以当做窗口使用
 
 ```python
@@ -53,21 +52,17 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(button)
 ```
 
-`QPushButton` 是pyqt提供的按钮组件，使用`from PyQt6.QtWidgets import QPushButton`  导入。
+`QPushButton` 是pyqt提供的按钮组件，使用 `from PyQt6.QtWidgets import QPushButton`  导入。
 
 `setCentralWidget(button)` 将 button 设置为 QMainWindow 的中间部分，QMainWindow的结构后面会讲到。
 
 `setFixedSize` 用于设置**固定**的窗口大小**QSize** 用于表示大小，用 `from PyQt6.QtCore import QSize` 导入。 **QtCore** 模块的类是非组件的重要的类，像 QSize 不体现为具体可见的组件。
 
-
-
 ### 1.2 对话框
 
 #### 1.2.1 Dialog
 
-
-
- ```python
+```python
  class CustomDialog(QDialog):
      def __init__(self):
          super().__init__()
@@ -88,7 +83,7 @@ class MainWindow(QMainWindow):
          self.layout.addWidget(message)
          self.layout.addWidget(self.buttonBox)
          self.setLayout(self.layout)
- ```
+```
 
 上面我们继承 **Qdialog** 个性化了一个对话框。
 
@@ -127,11 +122,7 @@ class MainWindow(QMainWindow):
       print("Cancel!")
 ```
 
-
-
 #### 1.2.2 QMessageBox
-
-
 
 pyqt封装了常用的对话框， 通过**QMessageBox** 提供给我们。
 
@@ -208,13 +199,4 @@ QMessageBox.question(parent, title, message)
 QMessageBox.warning(parent, title, message)
 ```
 
-
-
- #### 1.2.3 InputDialog
-
-
-
-
-
-
-
+#### 1.2.3 InputDialog
