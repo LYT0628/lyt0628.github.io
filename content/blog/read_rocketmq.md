@@ -1,32 +1,13 @@
 ---
-title: "Read_spring"
+title: "RocketMQ 源码阅读笔记"
 date: 2023-10-23T13:18:45+08:00
-draft: true
+draft: false
 ---
-
-
-
-
-
-
-
 ## 一，架构理解
-
-
-
-
-
-
 
 ## 二，核心模块运行流程、
 
-
-
-
-
 ## 三，实现细节
-
-
 
 ## 四，涉及的Java类库
 
@@ -36,5 +17,4 @@ draft: true
   - charset： 字符编码实现
   - file：负责处理文件，和文件系统交互
   - 直接目录下：Buffer实现
-- 
-
+-
