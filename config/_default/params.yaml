@@ -1,7 +1,40 @@
 # color: "#4f46e5"
 color: "#DC2626"
 logo: image/logo.png
-copyright: "Copyright &copy; 2004-2023 lyt0628 | 摸鱼天尊. All Rights Reserved."
+copyright: "Copyright &copy; 2004-2023 lyt0628 | **摸鱼天尊**. All Rights Reserved."
+author: LYT0628
+siteInfo: It is my blog and docs website.
+license: > 
+      Code licensed [MIT](https://github.com/twbs/bootstrap/blob/main/LICENSE),
+      docs CC by ME.
+
+footerTopic:
+  - topic:
+      Name: Guides
+      Items: 
+        - Name: Java
+          URL: /
+        - Name: web
+          URL: /
+        - Name: Go
+          URL: /
+  - topic:
+      Name: Projects
+      Items: 
+        - Name: CyberLoafing
+          URL: /
+        - Name: DFR
+          URL: /
+  - topic:
+      Name: Community
+      Items: 
+        - Name: issue
+          URL: /
+        - Name: blog
+          URL: /
+
+
+
 
 footer:
   - title: About
