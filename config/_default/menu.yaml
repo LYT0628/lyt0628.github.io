@@ -1,6 +1,6 @@
 main:
   - identifier: about
-    name: 关于我
+    name: About
     url: /about
     weight: 1000
   - identifier: contact

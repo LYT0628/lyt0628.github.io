@@ -306,7 +306,7 @@ with open(file) as f:
 
 它相当于
 
-```pyth
+```python
 try:
 	f = open(file， “r”)
 	print(f.read())
@@ -316,7 +316,7 @@ catch:
 
 with open(file) as f 帮我们**管理了上下文**
 
-open其实就是一个上下文管理器
+open其实就是一个上下文管理器，我们使用上下文管理器封装一下open
 
 ```python
 class File(object):
@@ -332,7 +332,7 @@ class File(object):
         
 ```
 
-其实也是一种代理的语法糖。
+只要实现了`__enter__` 和 `__exit__` 方法，这个类就成了上下文管理器，这其实是一种代理的语法糖。
 
 ## 生成器
 

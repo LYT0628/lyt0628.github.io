@@ -1,12 +1,15 @@
 ---
 menu:
   main:
-    name: 动态
+    name: Blog
     identifier: blog
     weight: 100
 
 ---
-The Acme Blog
+
+
+
+LYT Blog
 =============
 
-Curated content about our teams and products.
+Curated content about my study, carrer, and life.
