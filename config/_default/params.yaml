@@ -3,7 +3,7 @@ color: "#DC2626"
 logo: image/logo.png
 copyright: "Copyright &copy; 2004-2023 lyt0628 | **摸鱼天尊**. All Rights Reserved."
 author: LYT0628
-siteInfo: It is my blog and docs website.
+siteInfo: 临渊羡鱼，不若退而结网。
 license: > 
       Code licensed [MIT](https://github.com/twbs/bootstrap/blob/main/LICENSE),
       docs CC by ME.
@@ -14,10 +14,19 @@ footerTopic:
       Items: 
         - Name: Java
           URL: /
-        - Name: web
-          URL: /
         - Name: Go
           URL: /
+        - Name: Python
+          URL: /
+        - Name: web
+          URL: /
+        - Name: OS
+          URL: /
+        - Name: Colored Pencil
+          URL: /
+        - Name: Animation
+          URL: /        
+
   - topic:
       Name: Projects
       Items: 
