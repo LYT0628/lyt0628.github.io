@@ -1,5 +1,7 @@
 github.com/LYT0628/CyberLoafing v1.0.3 h1:q2Gfxe2xDuVFfROaVqOsZjwP0RsRcQICsw18bKkQU+k=
 github.com/LYT0628/CyberLoafing v1.0.3/go.mod h1:RXzIWFXeFDghYpOaONNqCFu2zq6yOGRI5EMgj9ZK5as=
 github.com/jquery/jquery v0.0.0-20231016165454-1ad66aeb6d7d/go.mod h1:awH0v5ImrD4lpSNYgzEFDJGCfWp3Y+4uYc2qFZDen9w=
+github.com/jquery/jquery v0.0.0-20231101234850-f47c6a833706 h1:cvU2HxjYnsiyi0cfDk+wa40TW5xb7jKoz2NRKRWuA80=
+github.com/jquery/jquery v0.0.0-20231101234850-f47c6a833706/go.mod h1:awH0v5ImrD4lpSNYgzEFDJGCfWp3Y+4uYc2qFZDen9w=
 github.com/necolas/normalize.css v2.1.3+incompatible h1:tZYmptM/WDBKUqgh0rD8HSafGiK417jdyT+XJ6c+zjU=
 github.com/necolas/normalize.css v2.1.3+incompatible/go.mod h1:892T+m70k5cQA34rKLasOW7c3/cEHdn86mfwm8Xlxic=
