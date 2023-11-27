@@ -1,9 +1,9 @@
 ---
 title: "Python笔记"
 date: 2023-10-30T18:22:16+08:00
+description: Python笔记
 draft: false
 ---
-
 ## 并发
 
 #### 多进程
@@ -15,11 +15,11 @@ def say():
     print("hello")
 def say(word):
     print("hello" + word)
-    
+  
 if '__name__' == '__main__':
     p1 = mp.Process(target=say)
     p2 = mp.Process(target=say,"world")
-    
+  
     p1.start()
     p2.start()
 ```
@@ -44,10 +44,6 @@ cp.daemon(True);
 cp.terminate()
 ```
 
-
-
-
-
 #### 多线程
 
 ```python
@@ -55,8 +51,8 @@ import threading
 
 def say():
     print("hello")
-    
-    
+  
+  
 if '__name__' == '__main__':
     ct = threading.Thread(target=say)
 
@@ -87,14 +83,12 @@ mutex = threading.Lock()
 
 # 申请锁
 mutext.qcquire()
-	
+
     # .... 读写操作
 
 # 释放锁
 mutext.relaease()
 ```
-
-
 
 ##### join同步
 
@@ -158,10 +152,6 @@ print( r.decode("utf-8") )
 s.close()
 ```
 
-
-
-
-
 ## 闭包和装饰器
 
 ### 闭包
@@ -178,8 +168,6 @@ def foo():
 
 nonlocal，声明使用外层函数的变量，而不是内层函数新定义的变量。
 
-
-
 ### 函数装饰器
 
 一种特殊的闭包如下：
@@ -192,7 +180,6 @@ def foo(fn):
 ```
 
 - foo 接受一个callable参数，
-
 - bar内部调用callable
 - 返回内部函数
 
@@ -239,7 +226,7 @@ def say(word):
 
 ```
 
-这很合理，**( )** 表示立即执行，执行完wrapper后返回foo，与@就形成了我们之前使用的装饰器了。 
+这很合理，**( )** 表示立即执行，执行完wrapper后返回foo，与@就形成了我们之前使用的装饰器了。
 
 ### 类装饰器
 
@@ -252,7 +239,7 @@ class decorator(object):
     def __call__(self,*args, **kwargs):
         r= fn()
     	return r
-    
+  
 ```
 
 **callable** 对象可以作为装饰器使用， 这是理所当然的。
@@ -272,8 +259,6 @@ class decorator(object):
 
 和函数装饰器的逻辑是一致的。
 
-
-
 ### 内置装饰器
 
 ```python
@@ -292,8 +277,6 @@ def set_prop(self, new_prop):
 # self.__prop
 prop = property(get_prop, set_prop)
 ```
-
-
 
 ## with语句和上下文管理器
 
@@ -329,10 +312,10 @@ class File(object):
     	return self._file
     def __exit__():
 		self._file.close()
-        
+      
 ```
 
-只要实现了`__enter__` 和 `__exit__` 方法，这个类就成了上下文管理器，这其实是一种代理的语法糖。
+只要实现了 `__enter__` 和 `__exit__` 方法，这个类就成了上下文管理器，这其实是一种代理的语法糖。
 
 ## 生成器
 
@@ -367,7 +350,4 @@ def linear(n,d):
 g = (i*d + 1 for i in range(n))
 ```
 
-
-
 ## 正则表达式
-
