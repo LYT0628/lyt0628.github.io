@@ -1,2 +1,8 @@
 .hugo_build.lock
 package.json
+
+# for hugo 
+*.lock 
+
+# generated  
+resources/

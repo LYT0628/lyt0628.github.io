@@ -3,7 +3,7 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "..\\CyberLoafing\\assets\\*"
+    "../CyberLoafing/assets/*"
    ]
   }
  }

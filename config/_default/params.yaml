@@ -10,7 +10,7 @@ license: >
       Code licensed [MIT](https://github.com/twbs/bootstrap/blob/main/LICENSE),
       docs CC by ME.
 
-footerTopic:
+topics:
   - topic:
       Name: Guides
       Items: 
