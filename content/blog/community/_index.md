@@ -1,6 +1,6 @@
 ---
 menu:
   main:
-    name: Community
+    name: community
     parent: blog
 ---

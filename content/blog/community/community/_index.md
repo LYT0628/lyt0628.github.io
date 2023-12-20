@@ -2,5 +2,5 @@
 menu:
   main:
     name: Com
-    parent: Community
+    parent: community
 ---
