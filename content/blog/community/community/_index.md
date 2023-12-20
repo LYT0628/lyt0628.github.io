@@ -1,6 +1,6 @@
 ---
-menu:
-  main:
-    name: Com
-    parent: community
+#menu:
+#  main:
+#    name: Com
+#    parent: community
 ---

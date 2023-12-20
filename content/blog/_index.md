@@ -2,10 +2,9 @@
 title: LYT`s Blog
 menu:
   main:
-    name: Blog
     identifier: blog
-    weight: 100
-    dropdown: true
+    name: Blog
+    weight: 30
 ---
 
 Curated content about my study, carrer, and life.

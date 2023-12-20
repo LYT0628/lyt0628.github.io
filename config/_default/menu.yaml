@@ -7,3 +7,29 @@ main:
     name: Contact
     url: /contact
     weight: 2000
+####  Find ###### 
+  - identifier: find
+    name: Find
+    url: /
+    weight: 120
+  - identifier: tags
+    name: Tags
+    url: /tags
+    weight: 100
+    parent: find
+  - identifier: categories
+    name: Categories
+    url: /categories
+    weight: 120
+    parent: find
+
+
+footer:
+  - identifier: tags
+    name: Tags
+    url: /tags
+    weight: 100
+  - identifier: categories
+    name: Categories
+    url: /categories
+    weight: 120
