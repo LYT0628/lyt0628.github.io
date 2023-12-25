@@ -2,6 +2,8 @@ github.com/LYT0628/CyberLoafing v1.0.3 h1:q2Gfxe2xDuVFfROaVqOsZjwP0RsRcQICsw18bK
 github.com/LYT0628/CyberLoafing v1.0.3/go.mod h1:RXzIWFXeFDghYpOaONNqCFu2zq6yOGRI5EMgj9ZK5as=
 github.com/LYT0628/hugoftp v0.0.0-20231225083846-19f73d7da99d h1:c4cc/V9jeNocF5k+Bap9NE+Rvr+nwaw2tgYIHHU8Qcw=
 github.com/LYT0628/hugoftp v0.0.0-20231225083846-19f73d7da99d/go.mod h1:eY8RQ2OznlAYt3nLYcnl+dDKIiyghbuq1qNojlNpKAY=
+github.com/LYT0628/hugoftp v0.0.0-20231225170502-3419c0504508 h1:OxDrx0Gy+OXuJBECsfL1zzmHV3b9HvoojJaP/+cbCQc=
+github.com/LYT0628/hugoftp v0.0.0-20231225170502-3419c0504508/go.mod h1:eY8RQ2OznlAYt3nLYcnl+dDKIiyghbuq1qNojlNpKAY=
 github.com/LYT0628/hugolib v0.0.0-20231219132848-328729f1a55b h1:kY4rd5cmVbtxGogqXZMvMkOPz9kxGe8Saz5Ke8/KueY=
 github.com/LYT0628/hugolib v0.0.0-20231219132848-328729f1a55b/go.mod h1:Srxqzfi/MPjtlolVtiuqWD+Wx5tLRlp2rKnTDoSaoH8=
 github.com/LYT0628/hugolib v0.0.0-20231219133846-b56402c82b4b h1:XzCD8VzckmCxfeArocVM7QN3MXEj1OT+ajqxTIbsXBY=

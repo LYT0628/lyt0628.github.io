@@ -1,0 +1,6 @@
+
+{{$t1 := time.AsTime $.start_time}}
+{{$duration := (time.Now).Sub $t1}}
+
+{{$duration :=  (printf $.format  $duration.Hours) | markdownify}}
+{{ return $duration }}

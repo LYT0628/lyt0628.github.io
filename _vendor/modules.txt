@@ -1,0 +1,4 @@
+# github.com/LYT0628/hugoftp v0.0.0-20231225170502-3419c0504508
+# github.com/LYT0628/CyberLoafing v1.0.3
+# github.com/LYT0628/hugolib v0.0.0-20231219160639-1667614f3a22
+# github.com/hugoinaction/hugo-debug-utils v0.0.0-20220702145907-d1ee2aca7e2f

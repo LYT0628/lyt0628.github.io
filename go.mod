@@ -6,7 +6,7 @@ go 1.23
 
 require (
 	github.com/LYT0628/CyberLoafing v1.0.3 // indirect
-	github.com/LYT0628/hugoftp v0.0.0-20231225083846-19f73d7da99d // indirect
+	github.com/LYT0628/hugoftp v0.0.0-20231225170502-3419c0504508 // indirect
 	github.com/LYT0628/hugolib v0.0.0-20231219160639-1667614f3a22 // indirect
 
 )

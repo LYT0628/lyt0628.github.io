@@ -1,0 +1,9 @@
+{{/*  Context is a section  */}}
+
+{{ $paginator := partial "hugolib/paginator.html" . }}
+
+  {{/*  显示子section  */}}
+{{if and (eq $paginator.PageNumber 1)
+          (gt (len .Sections) 0) }}
+  {{ return .Sections }}
+{{ end }}

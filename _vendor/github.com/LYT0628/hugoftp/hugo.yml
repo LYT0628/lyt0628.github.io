@@ -1,0 +1,5 @@
+
+module:
+      mounts:
+      - source:           ftp
+        target:           content

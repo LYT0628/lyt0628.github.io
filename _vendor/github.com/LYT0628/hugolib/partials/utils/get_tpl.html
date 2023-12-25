@@ -1,0 +1,5 @@
+{{ $res_entry := $}}
+{{ $res_tpl := resources.GetMatch $res_entry }}
+{{ $res :=  partial "hugolib/tpl.html" $res_tpl }}
+{{ return  $res}}
+
