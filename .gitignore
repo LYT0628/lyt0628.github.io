@@ -6,3 +6,5 @@ package.json
 
 # generated  
 resources/
+
+_vendor
