@@ -1,3 +1,0 @@
-{{/* process resource using  ExecuteAsTemplate  */}}
-{{ $res := $}}
-{{ return  ($res | resources.ExecuteAsTemplate "logo.svg" "nothing" )}}

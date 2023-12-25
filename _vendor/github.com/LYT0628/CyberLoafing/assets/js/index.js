@@ -1,3 +1,0 @@
-
-import './search.js'
-
