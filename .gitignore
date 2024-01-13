@@ -9,3 +9,5 @@ resources/
 
 _vendor
 _gen
+
+node_modules

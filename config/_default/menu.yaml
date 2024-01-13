@@ -12,6 +12,11 @@ main:
     name: Find
     url: /
     weight: 120
+  - identifier: series
+    name: Series
+    url: /series
+    weight: 80
+    parent: find
   - identifier: tags
     name: Tags
     url: /tags
